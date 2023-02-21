@@ -1,0 +1,155 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.card{
+    width: 600px;
+    height: 550px;
+    box-shadow: 0 0 5px;
+    border-radius: 8px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-photo{
+    width: 260px;
+    height: 500px;
+    margin: 40px -40px;
+    
+}
+
+.photo{
+    box-shadow: 0 0 15px rgb(156, 156, 156);
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    height: 400px;
+    background-color: rgb(0, 255, 0);
+}
+
+.photo img{
+    margin-top: 8px;
+    margin-left: -50px;
+    width: 300px;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgb(62, 255, 168);
+}
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.icon{
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.photo-footer{
+    box-shadow: 0 0 15px rgb(156, 156, 156);
+    height: 70px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+
+}
+
+.apples img{
+    width: 50px;
+    height: 50px;
+    border: 1px solid rgb(157, 157, 157);
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 3px;
+}
+
+.card-title{
+    margin-top: 50px;
+    margin-right: 90px;
+    font-size: 18px;
+}
+
+.puli{
+    display: flex;
+}
+
+.puli h3{
+    margin-top: 50px;
+    color: red;
+}
+
+.puli h1{
+    margin-top: 20px;
+    font-size: 60px;
+    margin-left: 17px;
+    color: red;
+    font-weight: 100;
+}
+
+.card-title h4{
+    font-weight: 100;
+    font-size: 15px;
+    color: rgb(179, 179, 179);
+    margin-top: 15px;
+}
+
+.apple-color{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+}
+
+.acolor{
+    margin: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+
+.acolor{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    border-radius: 3px;
+}
+.acolor img{
+    border: 1px solid rgb(190, 190, 190);
+    border-radius: 5px;
+}
+
+.card-title h4{
+    margin-top: 30px;
+    margin-bottom: 5px;
+}
+
+.card-title ul{
+    font-size: 17px;
+}
+
+.card-title button{
+    width: 170px;
+    height: 50px;
+    background-color: rgb(255, 72, 72);
+    color: white;
+    border: 0px;
+    border-radius: 5px;
+    margin-top: 25px;
+    box-shadow: 0 0 5px black;
+}
